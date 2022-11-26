@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CnabinfosConfig(AppConfig):
+class CnabInfosConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "cnabInfos"
+    name = "cnab_infos"
