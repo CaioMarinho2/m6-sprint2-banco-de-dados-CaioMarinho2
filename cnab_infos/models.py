@@ -14,9 +14,8 @@ class Operations(models.Model):
     store_owner= models.CharField(max_length=15)
     store_name= models.CharField(max_length=20)
 
-
-
 class File(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True, editable=False)
     File = models.FileField()
     date= models.DateTimeField(auto_now_add=True )
 
