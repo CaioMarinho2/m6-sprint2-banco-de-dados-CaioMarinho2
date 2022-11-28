@@ -14,3 +14,16 @@
  
  # Como instalar e rodar a aplicação 
  
+ 1- Clone o repositório para a sua maquina
+ 
+ 2- Crie um ambiente virtual com o comando : `python -m venv venv`
+ 
+ 3- Ative o ambiente virtual com o comando : `.\venv\Scripts\activate` para Windowns e com o comando `source venv/bin/activate` para Linux 
+ 
+ 4- Instale todas as dependências necessárias com o comando : `pip install -r requirements.txt`
+ 
+ 5- Crie suas migrations com o comando `python manage.py makemigrations`
+ 
+ 6- Rode as migrations com o comando `python manage.py migrate` 
+ 
+ 7- Por fim é só rodar a aplicação com o comando `python manage.py runserver`
